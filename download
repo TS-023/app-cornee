@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies (niet gebruikt — alles via CDN, maar voor de zekerheid)
+node_modules/
+
+# Build output (indien je later een build-stap toevoegt)
+dist/
+build/
+
+# Lokale omgeving / secrets
+.env
+.env.*
